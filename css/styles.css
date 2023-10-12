@@ -9,10 +9,12 @@
 
 
 
-
 body{
+    
     background: rgb(235,116,11);
 background: linear-gradient(0deg, rgba(235,116,11,1) 25%, rgba(245,236,0,1) 100%);
+
+
     
     
     }
@@ -39,10 +41,42 @@ background: linear-gradient(0deg, rgba(235,116,11,1) 25%, rgba(245,236,0,1) 100%
 
 }
 
+
 .textoprimario{
     font-family: cursive;
     font-weight: 300;
     text-align: center;
     padding-left: 100px;
 }
+
+.video{
+    padding-left: 15px;
+}
+.tituloinstitucional{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 500;
+    text-align: center;
+}
+
+.mision{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 500;
+    text-align: center;
+}
+
+.vision{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 500;
+    text-align: center;
+    
+
+}
+
+.valores{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 500;
+    text-align: center;
+
+}
+
 

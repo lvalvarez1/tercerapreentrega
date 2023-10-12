@@ -4,44 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/styles.css">
-    <title>Nivel Primario</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Nivel Secundario</title>
 </head>
 <body>
     <header>
+        <nav class="navbar navbar-expand-lg bg-body-warning">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html"><img src="../assets/images/Logopagina.png" alt="logo" width="150px"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="NivelPrimario.html">Nivel Primario</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="NivelSecundario.html">Nivel Secundario</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Institucional.html">Institucional</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="./pages/Contacto.html">Contacto</a>
+                  </li>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+          <main>
 
-        <div class="logo">
-            <img src="../assets/images/Logopagina.png" alt="Logopagina">
-            <h1 class="nombrecolegio">Colegio Vlaskogar</h1>
+            <h1 class="nivelprimario">Nivel Secundario</h1>
+        
+            <br>
+            <br>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+            <p class="textoprimario">Se fomenta la consolidación en el manejo de las responsabilidades, 
+                la defensa de las perspectivas propias respetando las de los demás en el marco del trabajo colaborativo.
+                 Todo esto, en pos del desarrollo de saberes plurales y competencias que preparen para la continuidad
+                  de estudios superiores o la inserción en el mundo laboral. Se ha optado por la orientación de 
+                  Ciencias Sociales por ser una de las más abarcativas y 
+                que representa la perspectiva de trabajo institucional.</p>
         </div>
 
-        <nav>
-            <a href="../index.html">Inicio</a>
-            <a href="../pages/NivelPrimario.html">Nivel NivelPrimario</a>
-            <a href="../pages/NivelSecundario.html">Nivel Secundario</a>
-            <a href="../pages/Institucional.html">Institucional</a>
-            <a href="../pages/Contacto.html">Contacto</a>
-        </nav>
-
-    </header>
+        <div class="video">
+            <video src="../assets/video/colegio.mp4" class="object-fit-contain" width="100%" autoplay></video>
+            
+        </div>
+            </div>
+            </div>
+            </div>
+          </main>
     
-    <main>
-        <span class="titulo3"><h1>Nivel </h1></span>
-        <span class="titulo4"><h1>Secundario </h1></span>
-
-        <article id="textosecundario">
-            <p>Se fomenta la consolidación en el manejo de las responsabilidades, la defensa de las perspectivas propias respetando las de los demás en el marco del trabajo colaborativo. Todo esto, en pos del desarrollo de saberes plurales y competencias que preparen para la continuidad de estudios superiores o la inserción en el mundo laboral. Se ha optado por la orientación de Ciencias Sociales por ser una de las más abarcativas y que representa la perspectiva de trabajo institucional.</p>
-            <iframe id="video" src="../assets/video/colegio.mp4" frameborder="0" width="600" height="400"></iframe>
-        </article>
-        
-       
+          <footer class="container-fluid">
+            <img src="../assets/images/footer.jpg" class="img-fluid" alt="footer">
+        </footer>
 
 
-    </main>
-
-
-
-    <footer class="pie">
-        <img src="../assets/images/footer.jpg" alt="footer">
-      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
